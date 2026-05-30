@@ -9,5 +9,10 @@ def FizzBuzz(x)
     puts x.to_s
   end
 end
-FizzBuzz(15)
+
+i = 1
+while i <= 15  do
+  FizzBuzz(i)
+  i += 1
+end
 
